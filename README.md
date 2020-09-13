@@ -57,9 +57,9 @@ $ python BotServer.py
 
 
 ## References
-- [KcBERT](https://github.com/Beomi/KcBERT)
-- [KoBERT](https://github.com/SKTBrain/KoBERT)
-- [Att Bi-LSTM](https://github.com/ZIZUN/Naver-news-article-classification-using-attention-based-bi-lstm-with-pytorch)
-- [Huggingface Transformers](https://github.com/huggingface/transformers)
-- [Korean-hate-speech-dataset](https://github.com/kocohub/korean-hate-speech)
-- [django-blog](https://github.com/AmirAhrari/django-blog)
+- [Beomi/KcBERT](https://github.com/Beomi/KcBERT)
+- [SKTBrain/KoBERT](https://github.com/SKTBrain/KoBERT)
+- [ZIZUN/Att Bi-LSTM](https://github.com/ZIZUN/Naver-news-article-classification-using-attention-based-bi-lstm-with-pytorch)
+- [Huggingface/Transformers](https://github.com/huggingface/transformers)
+- [kocohub/Korean-hate-speech-dataset](https://github.com/kocohub/korean-hate-speech)
+- [AmirAhrari/django-blog](https://github.com/AmirAhrari/django-blog)
