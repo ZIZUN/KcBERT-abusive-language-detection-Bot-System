@@ -10,6 +10,7 @@
 - Python 3.8.3 이상
 
 ```bash
+$ git clone https://github.com/ZIZUN/KcBERT-abusive-language-detection-Bot-System.git && cd django-web
 $ pip install -r requirements.txt
 ```
 
@@ -50,12 +51,15 @@ $ python BotServer.py
 
 |                     | Accuracy (%) |
 | ----------------- | ------------ |
-| KcBERT            | **89.63**    |
-| KoBERT            | 88.41        |
-| Attention Bi-LSTM | 87.07      |
+| KcBERT            | **80.93**    |
+| KoBERT            | 77.68        |
+| Attention Bi-LSTM | 73.79      |
 
 
 ## References
-
+- [KcBERT](https://github.com/Beomi/KcBERT)
 - [KoBERT](https://github.com/SKTBrain/KoBERT)
+- [Att Bi-LSTM](https://github.com/ZIZUN/Naver-news-article-classification-using-attention-based-bi-lstm-with-pytorch)
 - [Huggingface Transformers](https://github.com/huggingface/transformers)
+- [Korean-hate-speech-dataset](https://github.com/kocohub/korean-hate-speech)
+- [django-blog](https://github.com/AmirAhrari/django-blog)
