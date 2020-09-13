@@ -1,5 +1,7 @@
 ﻿# KcBERT기반 악성댓글탐지봇 시스템
 
+일반적으로 사전학습 되어 공개된 한국어 BERT는 잘 정제된 여러 문서(e.g. 뉴스, 위키, 책)들을 이용하여 학습이 되어 문어체의 특성이 반영되어 있고 신조어, 구어체의 특성이 들어가 있지 않다고 볼 수 있다. KcBERT(Korean comments BERT)는 네이버 뉴스의 댓글로 학습되어 신조어, 구어체에 강인한 사전학습된 언어모델이라 할 수 있다. 따라서 악성댓글 탐지를 위해 KcBERT를 욕설, 혐오, 비난이 섞인 댓글과 그렇지 않은 댓글로 분류하는 다운스트림 태스크에 맞게 파인튜닝한다. 파인튜닝된 모델과 파라미터들을 이용하여 데이터베이스에 올라온 댓글들에 대해 악성여부를 탐지하는 최적화된 알고리즘을 구성해 안정된 봇서버를 만들어 시스템을 구축한다.
+
 ## 요구사항
 
 - MySQL Server 8.0 이상
@@ -10,6 +12,7 @@
 - Python 3.8.3 이상
 
 ```bash
+$ git clone https://github.com/ZIZUN/KcBERT-abusive-language-detection-Bot-System.git && cd django-web
 $ pip install -r requirements.txt
 ```
 
@@ -50,12 +53,17 @@ $ python BotServer.py
 
 |                     | Accuracy (%) |
 | ----------------- | ------------ |
-| KcBERT            | **89.63**    |
-| KoBERT            | 88.41        |
-| Attention Bi-LSTM | 87.07      |
+| KcBERT            | **80.93**    |
+| KoBERT            | 77.68        |
+| Attention Bi-LSTM | 73.79      |
 
 
 ## References
 - [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/pdf/1810.04805)
-- [KoBERT](https://github.com/SKTBrain/KoBERT)
-- [Huggingface Transformers](https://github.com/huggingface/transformers)
+- [Huggingface/Transformers](https://github.com/huggingface/transformers)
+- [Beomi/KcBERT](https://github.com/Beomi/KcBERT)
+- [kocohub/Korean-hate-speech-dataset](https://github.com/kocohub/korean-hate-speech)
+- [SKTBrain/KoBERT](https://github.com/SKTBrain/KoBERT)
+- [ZIZUN/Att Bi-LSTM](https://github.com/ZIZUN/Naver-news-article-classification-using-attention-based-bi-lstm-with-pytorch)
+- [AmirAhrari/django-blog]
+
