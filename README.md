@@ -49,7 +49,7 @@ $ python BotServer.py
 
 
 
-## Results
+## 결과
 
 |                     | Accuracy (%) |
 | ----------------- | ------------ |
@@ -58,7 +58,7 @@ $ python BotServer.py
 | Attention Bi-LSTM | 73.79      |
 
 
-## References
+## 참조
 - [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/pdf/1810.04805)
 - [Huggingface/Transformers](https://github.com/huggingface/transformers)
 - [Beomi/KcBERT](https://github.com/Beomi/KcBERT)
