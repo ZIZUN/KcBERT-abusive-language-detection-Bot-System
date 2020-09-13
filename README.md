@@ -64,5 +64,5 @@ $ python BotServer.py
 - [kocohub/Korean-hate-speech-dataset](https://github.com/kocohub/korean-hate-speech)
 - [SKTBrain/KoBERT](https://github.com/SKTBrain/KoBERT)
 - [ZIZUN/Att Bi-LSTM](https://github.com/ZIZUN/Naver-news-article-classification-using-attention-based-bi-lstm-with-pytorch)
-- [AmirAhrari/django-blog]
+- [AmirAhrari/django-blog](https://github.com/AmirAhrari/django-blog)
 
