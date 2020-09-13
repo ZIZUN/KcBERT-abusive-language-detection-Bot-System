@@ -1,0 +1,9 @@
+django==2.2.1
+django-crispy-forms==1.7.2
+pillow==6.0.0
+djangorestframework==3.9.4
+torch==1.5.1
+transformers==3.0.1
+mysql-connector-python==8.0.21
+emoji==0.6.0
+soynlp==0.0.493
