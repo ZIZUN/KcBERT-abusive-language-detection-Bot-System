@@ -31,11 +31,10 @@ $ pip install -r requirements.txt
 - 위에 설명된 환경이 모두 설정되었다는 가정하에, 설치된 폴더의 django_web 디렉토리로 이동
 - 아래의 코드 실행
 ```bash
-$ python manage.py runserver 127.0.0.1:8000
 $ python manage.py migrate
 $ python manage.py collectstatic
 $ python manage.py createsuperuser
-$ python manage.py runserver
+$ python manage.py runserver 127.0.0.1:8000
 ```
 - http://127.0.0.1:8000 으로 접속가능하다.
 
