@@ -3,7 +3,7 @@
 일반적으로 사전학습 되어 공개된 한국어 BERT는 잘 정제된 여러 문서(e.g. 뉴스, 위키, 책)들을 이용하여 학습이 되어 문어체의 특성이 반영되어 있고 신조어, 구어체의 특성이 들어가 있지 않다고 볼 수 있다. KcBERT(Korean comments BERT)는 네이버 뉴스의 댓글로 학습되어 신조어, 구어체에 강인한 사전학습된 언어모델이라 할 수 있다. 따라서 악성댓글 탐지를 위해 KcBERT를 욕설, 혐오, 비난이 섞인 댓글과 그렇지 않은 댓글로 분류하는 다운스트림 태스크에 맞게 파인튜닝한다. 파인튜닝된 모델과 파라미터들을 이용하여 데이터베이스에 올라온 댓글들에 대해 악성여부를 탐지하는 최적화된 알고리즘을 구성해 안정된 봇서버를 만들어 시스템을 구축한다.
 
 ## 요구사항
-다음 파일 <다운로드>(https://drive.google.com/file/d/1vAhjojcUUA7eCPKm7VLav0s8ZRUFqHJ6/view?usp=sharing)을 받고 botserver>model 폴더안에 파일을 넣는다.(학습된 모델 파라미터) 
+다음 파일 [다운로드](https://drive.google.com/file/d/1vAhjojcUUA7eCPKm7VLav0s8ZRUFqHJ6/view?usp=sharing) 를 받고 botserver>model 폴더안에 파일을 넣는다.(학습된 모델 파라미터) 
 
 - MySQL Server 8.0 이상
   - instance 기본설정 >>  hostname: localhost  port:3306  username: root  password:root
