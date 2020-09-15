@@ -52,9 +52,9 @@ $ python BotServer.py
 
 |                     | Accuracy (%) |
 | ----------------- | ------------ |
-| KcBERT            | **80.93**    |
-| KoBERT            | 77.68        |
-| Attention Bi-LSTM | 73.79      |
+| KcBERT            | **90.6**    |
+| KoBERT            | 88.2        |
+| Attention Bi-LSTM | 85.8      |
 
 
 ## 참조
